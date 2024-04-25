@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+ 
+  </head>
+  <body>
+    <style>
+      .container-fluid{
+       background-color: black;
+       color: white;
+      }
+
+      .container-fluid{
+        display: grid;
+    grid-template-rows:repeat(10,200px);
+grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+display: flex;
+flex-wrap: wrap;
+      }
+    </style>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="b-example-divider"></div>
+           
+            <div class="px-4 pt-5 my-5 text-center border-bottom">
+              <h1 style="color: white;">MORNING PERKS CAFE</h1>
+              <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4"><h3>Here a grand welcome to you</h3>Coffee is one of the world’s most popular beverages. Some claim it is the most widely consumed liquid in the world aside from water.
+                  As you all know that we are the no 1 coffee shop of asia.
+                  we have delicious coffee's and  also pastries</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                 <a href="./login .html"> <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">SIGN UP</button></a>
+                  <a href="./menu.html"><button type="button" class="btn btn-outline-secondary btn-lg px-4">menu</button></a>
+                </div>
+              </div>
+              <div class="overflow-hidden" >
+                <div class="container px-5">
+                  <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img height="500px" width= "1300px" src="./img/12.jpg" class="d-block w-400" alt="">
+                      </div>
+                      <div class="carousel-item">
+                        <img height="500px" width= "900px" src="./img/neu.jpg" class="d-block w-400" alt="">
+                      </div>
+                      <div class="carousel-item">
+                        <img height="500px" width= "900px" src="./img/neu 2.jpg" class="d-block w-400" alt="">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
